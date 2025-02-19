@@ -18,7 +18,6 @@ import { useSearchParams } from 'next/navigation'
 const search = searchParams.get(paramName)
 ```
 
-
 ## Performance 
 
 - Cumulative Layout Shift to evaluate performance and user experience of website.
@@ -55,6 +54,9 @@ const search = searchParams.get(paramName)
 ## Routing
 - Route Groups
     - It is used to organize files without affecting the URL path structure. To separate the application into sections with routing groups, you add parenthesis () to the folder name eg (marketing).
+- Link instead of <a> tag in components. 
+- useRouter hook in client components.
+- redirect function in server components.
 
 
 ## Error Handling
@@ -63,16 +65,3 @@ const search = searchParams.get(paramName)
     - The Error file is a client component.
     - It accepts the error and reset props. The error props is an instance of javascript's error object. The reset prop is a function to reset the error boundary. 
 - Handing 404 errors with notFound function when the resource does not exist.
-
-
-
-## Caching 
-
-
-## Data Fetching 
-
-
-## Testing
-
-
-## Authentication
